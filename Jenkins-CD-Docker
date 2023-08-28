@@ -7,7 +7,7 @@ pipeline {
     dockerimagename = "sagar1296/my-tomcat:latest"
     registry_name = "registry.hub.docker.com"
     registry_url = "https://registry.hub.docker.com"
-    registryCredential = 'dockerhub'
+    registryCredential = 'docker'
     container_name= "sagar1296-my-tomcat"
 	  
     }    
