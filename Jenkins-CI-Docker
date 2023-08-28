@@ -1,7 +1,7 @@
-pipeline {
+ipipeline {
   environment {
     dockerimagename = "sagar1296/newimage"
-    registry_url = "https://hub.docker.com"
+    registry_url = "https://registry.hub.docker.com"
     registryCredential = 'docker'
     }
     tools {
