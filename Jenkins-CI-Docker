@@ -1,4 +1,4 @@
-ipipeline {
+pipeline {
   environment {
     dockerimagename = "sagar1296/newimage"
     registry_name = "registry.hub.docker.com"
